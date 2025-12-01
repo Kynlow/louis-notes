@@ -1,0 +1,58 @@
+body {
+    background-image: url("assets/background.png");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "unbounded";
+}
+
+.logo {
+    width: 20%;
+    top: 20px;
+    left: 30px;
+    position: absolute;
+}
+
+main {
+    width: 30%;
+    height: 30vh;
+    border: solid #000000 4px;
+    border-radius: 12px;
+    background: linear-gradient(#95e8e0 0%, #dfb27b 50%, #af72c9 100%);
+    position: relative;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+input {
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: black solid 1px;
+}
+
+input::placeholder {
+}
+
+input:focus {
+    border: solid black solid 4px;
+}
+
+.bg-effect {
+    position: absolute;
+    opacity: 0.15;
+    width: 100%;
+    z-index: 1;
+    height: 30vh;
+}
+.content {
+    position: absolute;
+    z-index: 2;
+}
