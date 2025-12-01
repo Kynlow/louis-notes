@@ -1,24 +1,20 @@
-body {
-	background-image: url("assets/background.png");
-	background-size: 100% 100vh;
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	font-family: "unbounded";
-}
 * {
 	margin: 0px;
 	padding: 0px;
-}
-.logo {
-	width: 20%;
-	top: 20px;
-	left: 30px;
-	position: absolute;
+	font-family: "unbounded";
 }
 
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("assets/background.png");
+	background-size: 100% 100vh;
+	background-repeat: no-repeat;
+}
 main {
 	display: flex;
 	flex-direction: column;
@@ -32,8 +28,7 @@ main {
 	position: relative;
 	box-shadow: #000000 13px 13px;
 }
-
-h1 {
+.h1 {
 	margin: 20px;
 	color: white;
 }
@@ -80,4 +75,7 @@ input:focus {
 .content {
 	position: absolute;
 	z-index: 2;
+}
+h1 {
+	margin: 25px;
 }
