@@ -1,36 +1,41 @@
-* {
-	margin: 0px;
-	padding: 0px;
-	font-family: "unbounded";
-}
-
 body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	min-height: 100vh;
 	background-image: url("assets/background.png");
 	background-size: 100% 100vh;
 	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: "unbounded";
 }
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.logo {
+	top: 20px;
+	left: 30px;
+	position: absolute;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
-	width: 30%;
-	min-height: 40vh;
+	width: 27%;
+	min-height: 35vh;
 	border: solid #000000 4px;
 	border-radius: 12px;
 	background: linear-gradient(#95e8e0 0%, #dfb27b 50%, #af72c9 100%);
 	position: relative;
 	box-shadow: #000000 13px 13px;
 }
-.h1 {
-	margin: 20px;
+
+h1 {
 	color: white;
+	font-size: 40px;
+	margin: 30px;
+	letter-spacing: -2px;
 }
 .input {
 	display: flex;
@@ -41,14 +46,18 @@ main {
 }
 
 input {
-	padding: 10px 25px;
+	padding: 16px 10px;
 	border-radius: 6px;
 	border: black solid 1px;
+	width: 70%;
 }
-
+input:hover {
+	border: 2px solid black;
+}
 input::placeholder {
 	color: rgba(128, 128, 128, 0.349);
 	font-size: 10px;
+	font-family: "unbounded";
 }
 
 input:focus {
@@ -70,12 +79,30 @@ input:focus {
 	opacity: 0.15;
 	width: 100%;
 	z-index: 1;
-	height: 40vh;
+	height: 35vh;
 }
 .content {
 	position: absolute;
 	z-index: 2;
+	width: 100%;
+	text-align: center;
 }
-h1 {
-	margin: 25px;
+a {
+	color: #4a6ae8;
+	font-weight: 700;
+}
+a:visited {
+	color: #4a6ae8;
+}
+button {
+	width: 50%;
+	border: 0px;
+	background-color: #4a6ae8;
+	border-radius: 8px;
+	text-align: center;
+	height: 40px;
+	color: white;
+	font-weight: 700;
+	font-family: "unbounded";
+	margin: 30px;
 }

@@ -13,7 +13,6 @@ body {
 	padding: 0px;
 }
 .logo {
-	width: 20%;
 	top: 20px;
 	left: 30px;
 	position: absolute;
@@ -22,10 +21,9 @@ body {
 main {
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
-	width: 30%;
-	min-height: 40vh;
+	width: 27%;
+	min-height: 35vh;
 	border: solid #000000 4px;
 	border-radius: 12px;
 	background: linear-gradient(#95e8e0 0%, #dfb27b 50%, #af72c9 100%);
@@ -34,9 +32,12 @@ main {
 }
 
 h1 {
-	margin: 20px;
 	color: white;
+	font-size: 40px;
+	margin: 30px;
+	letter-spacing: -2px;
 }
+
 .input {
 	display: flex;
 	flex-direction: column;
@@ -46,14 +47,20 @@ h1 {
 }
 
 input {
-	padding: 10px 25px;
+	padding: 16px 10px;
 	border-radius: 6px;
 	border: black solid 1px;
+	width: 70%;
+}
+
+input:hover {
+	border: 2px solid black;
 }
 
 input::placeholder {
 	color: rgba(128, 128, 128, 0.349);
 	font-size: 10px;
+	font-family: "unbounded";
 }
 
 input:focus {
@@ -75,9 +82,18 @@ input:focus {
 	opacity: 0.15;
 	width: 100%;
 	z-index: 1;
-	height: 40vh;
+	height: 35vh;
 }
 .content {
 	position: absolute;
 	z-index: 2;
+	width: 100%;
+	text-align: center;
+}
+a {
+	color: #4a6ae8;
+	font-weight: 700;
+}
+a:visited {
+	color: #4a6ae8;
 }
