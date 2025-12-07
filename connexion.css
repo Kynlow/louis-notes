@@ -36,6 +36,7 @@ h1 {
     margin: 30px;
     letter-spacing: -2px;
 }
+
 .input {
     display: flex;
     flex-direction: column;
@@ -50,9 +51,11 @@ input {
     border: black solid 1px;
     width: 70%;
 }
+
 input:hover {
     border: 2px solid black;
 }
+
 input::placeholder {
     color: rgba(128, 128, 128, 0.349);
     font-size: 10px;
@@ -72,6 +75,10 @@ input:focus {
     padding: 25px;
     color: white;
 }
+.content {
+    width: 100%;
+    text-align: center;
+}
 a {
     color: #4a6ae8;
     font-weight: 700;
@@ -80,16 +87,13 @@ a:visited {
     color: #4a6ae8;
 }
 button {
-    width: 50%;
-    border: 0px;
-    background-color: #4a6ae8;
-    border-radius: 8px;
-    text-align: center;
-    height: 40px;
+    font-size: 16px;
     color: white;
-    font-weight: 700;
+    background-color: #000000;
+    border-radius: 6px;
+    padding: 6px 10px;
+    border: 0px;
     font-family: "unbounded";
-    margin: 30px;
 }
 @media screen and (max-width: 701px) {
     body {

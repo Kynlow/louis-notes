@@ -75,11 +75,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 			height="110px"
 		/>
 		<main>
-			<img
-				src="assets/background-login.png"
-				alt="background"
-				class="bg-effect"
-			/>
 			<div class="content">
 				<h1>Inscription</h1>
 
@@ -102,6 +97,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 						type="password"
 						name="password"
 						placeholder="Mot de passe"
+					/>
+					<input
+						type="password"
+						name="confirm-password"
+						placeholder="Confirmer le mot de passe"
 					/>
 					<button type="submit">Créer un Compte</button>
 				</form>

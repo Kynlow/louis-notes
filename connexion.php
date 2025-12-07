@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 			href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Unbounded:wght@200..900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="connexion.css" />
 		<title>Louis-Notes - Connexion</title>
 	</head>
 	<body>
@@ -56,11 +56,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 			height="110px"
 		/>
 		<main>
-			<img
-				src="assets/background-login.png"
-				alt="background"
-				class="bg-effect"
-			/>
 			<div class="content">
 				<h1>CONNEXION</h1>
 
